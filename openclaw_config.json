@@ -1,0 +1,15 @@
+{
+  "gateway": {
+    "mode": "local"
+  },
+  "mcpServers": {
+    "toy_store_db": {
+      "command": "http",
+      "url": "http://mcp-server:8000/sse"
+    }
+  },
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-2.5-flash"
+  }
+}
